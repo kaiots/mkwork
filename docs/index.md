@@ -1,9 +1,7 @@
----
-template: home.html
-title: Material for MkDocs
-social:
-  cards_layout_options:
-    title: Documentation that simply works
----
-
-Welcome to Material for MkDocs.
+    Этап 1. Создание заявки на выпуск сертификата
+    Этап 2. Заполнение и отправка заявки
+    Этап 3. Подтверждение личности в сервисном центре
+    Этап 4. Выпуск сертификата
+    Этап 5. Подтверждение получения сертификата
+    Этап 6. Установка сертификата
+    Этап 7. тест изменений!
