@@ -1,0 +1,9 @@
+services:
+  mkwork:
+    image: squidfunk/mkdocs-material
+    container_name: mkwork
+    volumes:
+      - ${PWD}:/docs
+    ports:
+      - 8000:8000
+    restart: unless-stopped

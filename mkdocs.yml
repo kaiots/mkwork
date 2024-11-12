@@ -1,8 +1,10 @@
 site_name: Инструкция
-site_url: https://kaiots.github.io
+site_url: https://portainer.kaiot.ru
 theme:
   favicon: assets/favicon.png
   logo: assets/logo.png
+  extra:
+    homepage: https://portainer.kaiot.ru
 
   
   name: material
