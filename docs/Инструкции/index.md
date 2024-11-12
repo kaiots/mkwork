@@ -1,0 +1,1 @@
+[Linked content tabs enabled]: ../assets/screenshots/content-tabs-link.png

@@ -1,10 +1,8 @@
 site_name: Инструкция
-site_url: hhttps://kaiots.github.io/mkwork/
+#site_url: hhttps://kaiots.github.io/mkwork/
 theme:
   favicon: assets/favicon.png
   logo: assets/logo2.png
-
-  
   name: material
 #  custom_dir: material/overrides
   features:
@@ -21,6 +19,12 @@ theme:
     - header.autohide
     - navigation.instant
     - navigation.instant.prefetch
+  nav:
+  - test:
+    - ЭЦП/index.md
+  - Инструкции:
+    - Инструкция/index.md
+
   language: ru
   plugins:
   - search:
@@ -28,6 +32,7 @@ theme:
   - minify:
       minify_html: true
   - optimize
+  - blog
   
 
 
