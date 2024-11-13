@@ -14,41 +14,38 @@ icon: material/emoticon-happy
     Этап 2. Выпуск сертификата
     Этап 3. Подтверждение получения сертификата
     Этап 4. Установка сертификата
-
+{==
+==}
 
 ## Этап 1. Заполнение и отправка заявки
-
-Перейдите  в личный кабинет удостоверяющего центра по кнопке ниже.
-
-[Личный кабинет Контур](https://i.kontur-ca.ru){ .md-button }
-
-На вкладке «Телефон» укажите свой номер и нажмите «Получить код для входа». 
+1. Перейдите  в личный кабинет удостоверяющего центра по кнопке.
+[Личный кабинет Контур](https://i.kontur-ca.ru){ .md-button .md-button--primary }
+2. На вкладке «Телефон» укажите свой номер и нажмите «Получить код для входа». 
 
 <figure markdown>
-  ![Image title](https://services.kontur.ru/Files/Modules/Article/38741i/Vkhod_v_LK_1.png?p=1210&utm_source=yandex&utm_medium=organic&utm_referer=yandex.ru&utm_startpage=support.kontur.ru%2Fca%2F38743-vypusk_novogo_sertifikata_kep&utm_orderpage=support.kontur.ru%2Fca%2F38743-vypusk_novogo_sertifikata_kep){ width="500" }
+![Image title](./assets/screenshots/release_ecp/Vkhod_v_LK_1.png){ width="500" }
 </figure>
 
-Дождитесь звонка и введите 4 последние цифры номера. Отвечать на звонок не нужно. 
+Дождитесь звонка и введите 4 последние цифры номера. Отвечать на звонок не нужно.
 
 <figure markdown>
-  ![Image title](https://services.kontur.ru/Files/Modules/Article/38741i/Vkhod_v_LK_2.png?p=1210&utm_source=help.helicon.ru&utm_medium=referral&utm_referer=help.helicon.ru&utm_startpage=support.kontur.ru%2Fca%2F38744-obnovlenie_sertifikata_kep&utm_orderpage=support.kontur.ru%2Fca%2F38744-obnovlenie_sertifikata_kep){ width="500" }
+![Image title](./assets/screenshots/release_ecp/Vkhod_v_LK_2.png){ width="500" }
 </figure>
 
-В списке заявок на сертификаты найдите строку с сертификатом и нажмите «Заполнить заявку». 
-
+3. В списке заявок на сертификаты найдите строку с сертификатом и нажмите «Заполнить заявку». 
 <figure markdown>
-  ![Image title](https://services.kontur.ru/Files/Modules/Article/38744i/Obnovit_KEP_FL_1.png?p=1210&utm_source=help.helicon.ru&utm_medium=referral&utm_referer=help.helicon.ru&utm_startpage=support.kontur.ru%2Fca%2F38744-obnovlenie_sertifikata_kep&utm_orderpage=support.kontur.ru%2Fca%2F38744-obnovlenie_sertifikata_kep){ width="1000" }
+![Image title](./assets/screenshots/release_ecp/Obnovit_KEP_FL_1.png){ width="1000" }
 </figure>
  
-Проверьте данные
 
-Ознакомьтесь с тем, что предстоит сделать.
+4. Ознакомьтесь с тем, что предстоит сделать.
 <figure markdown>
-  ![Image title](https://services.kontur.ru/Files/Modules/Article/38743i/Vypusk_KEP_fizlico_1.png?p=1210&utm_source=help.helicon.ru&utm_medium=referral&utm_referer=help.helicon.ru&utm_startpage=support.kontur.ru%2Fca%2F38744-obnovlenie_sertifikata_kep&utm_orderpage=support.kontur.ru%2Fca%2F38743-vypusk_novogo_sertifikata_kep){ width="1000" }
-</figure> Нажмите «Приступить».
+  ![Image title](./assets/screenshots/release_ecp/Vypusk_KEP_fizlico_1.png){ width="1000" }
+</figure>                                            Нажмите «Приступить».
 
 
-Заполните реквизиты:
+5. Заполните реквизиты:
+..* ФИО можно заполнить:
 Владелец сертификата:  укажите ФИО точно так же, как в паспорте, с учётом букв Е/Ё, И/Й. Иностранным гражданам ФИО нужно заполнить русскими буквами, как в нотариально заверенном переводе паспорта или виде на жительство в РФ (если нет иностранного паспорта).
 
 Удостоверение личности: выберите «Паспорт РФ» или «Другой документ» и загрузите скан документа, удостоверяющего личность. В открывшемся окне заполните реквизиты документа, укажите пол и дату рождения владельца сертификата. 
