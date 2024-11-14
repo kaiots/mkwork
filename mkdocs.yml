@@ -1,24 +1,30 @@
 site_name: Инструкция
-#site_url: hhttps://kaiots.github.io/mkwork/
+site_url: hhttps://it.kaiot.ru
+
 theme:
   favicon: assets/favicon.png
   logo: assets/logo2.png
   name: material
 #  custom_dir: material/overrides
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
+    - navigation.tabs #Вкладки навигации верхний уровень
+    #- navigation.sections #Разделы навигации
+    #- navigation.expand
     - toc.integrate
-    - navigation.top
+    - toc.follow
+    - navigation.top #Кнопка "Вернуться наверх"
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
     - header.autohide
-    - navigation.instant
-    - navigation.instant.prefetch
+    - navigation.instant #Мгновенная загрузка
+    - navigation.instant.prefetch # Мгновенная предварительная выборка(для спонсоров)
+    - navigation.instant.progress #Индикатор выполнения
+    - navigation.prune
+    #- navigation.tracking
+    - content.tooltips
   nav:
   - test:
     - ЭЦП/index.md
