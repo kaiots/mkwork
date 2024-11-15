@@ -25,11 +25,11 @@ theme:
     - navigation.prune
     #- navigation.tracking
     - content.tooltips
-  nav:
-  - test:
-    - ЭЦП/index.md
-  - Инструкции:
-    - Инструкция/index.md
+  #nav:
+  #- test:
+  #  - ЭЦП/index.md
+  #- Инструкции:
+  #  - Инструкция/index.md
 
   language: ru
   plugins:
