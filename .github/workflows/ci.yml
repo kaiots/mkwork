@@ -37,7 +37,7 @@ jobs:
           command: |
             cd ${{ secrets.PROJECT_FOLDER }};
             git checkout main;
-            git pull git@github.com:kaiots/mkwork.git;
+            git pull;
             docker-compose --file docker-compose.yml down;
             docker-compose --file docker-compose.yml up -d;
             docker system prune --all --force;
