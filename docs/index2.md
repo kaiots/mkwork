@@ -1,5 +1,5 @@
 title: Обновление сертификата КЭП на физлицо
-icon: material/emoticon-happy
+# icon: material/emoticon-happy
 {==
 
 

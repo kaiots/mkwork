@@ -1,5 +1,5 @@
 title: Выпуск сертификата КЭП на физ лицо
-icon: material/emoticon-happy
+# icon: material/emoticon-happy
 
 {==
 
