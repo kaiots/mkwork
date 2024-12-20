@@ -17,7 +17,10 @@ theme:
     - toc.integrate #оглавление часть левой стороны
     - navigation.top #Кнопка "Вернуться наверх"
     - content.tooltips
-    - toc.follow #
+    - toc.follow
+    - announce.dismiss # крестик на панели обьявлений
+    - navigation.indexes
+    - search.suggest
 
   plugins:
     - search:
@@ -84,8 +87,11 @@ nav:
     - Выпуск сертификата: ecp/releaseecp/release.md
     - Обновление сертификата: ecp/updateecp/update.md
   - Класификатор полномочий МЧД:
+    - m4d/index.md
     - Диадок: m4d/diadoc.md
     - Центральный банк: m4d/cb.md
+    - Росалкогольрегулирование: m4d/alco.md
+    - МинТруд: m4d/ministryoflabor.md
   - Инструкции:
     - Очистка Кэша браузера: instructions/cache/cache.md
     - Смена пароля Рутокен: instructions/pincode/pincode.md
