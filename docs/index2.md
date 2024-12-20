@@ -30,13 +30,13 @@ hide:
 -   :fontawesome-solid-key:{ .lg .middle } __Выпуск сертификата ЭЦП__
 
     ---
-    [:octicons-arrow-right-24:    Инструкция](ecp/vipuck/index.md)
+    [:octicons-arrow-right-24:    Инструкция](ecp/releaseecp/release.md)
     
 -   :fontawesome-solid-arrows-rotate:{ .lg .middle } __Обновление сертификата ЭЦП__
 
     ---
 
-    [:octicons-arrow-right-24: Инструкция](ecp/obnovlenie/index.md)
+    [:octicons-arrow-right-24: Инструкция](ecp/updateecp/update.md)
 
 
 </div>
@@ -61,7 +61,7 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Инструкция](instructions/pincode/index1.md)
+    [:octicons-arrow-right-24: Инструкция](instructions/pincode/pincode.md)
 
 -   :material-export:{ .lg .middle } __Экспорт открытого ключа__
 

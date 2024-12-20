@@ -1,6 +1,6 @@
 site_name: База знаний
 site_author: (C) 2023-2024, Helicon.ru
-site_description: Инс
+site_description: Нажмите старт
 site_url: https://inst.kaiot.ru
 watch:
   - includes
@@ -17,7 +17,7 @@ theme:
     - toc.integrate #оглавление часть левой стороны
     - navigation.top #Кнопка "Вернуться наверх"
     - content.tooltips
-    - toc.follow
+    - toc.follow #
 
   plugins:
     - search:
@@ -77,8 +77,9 @@ markdown_extensions:
 
 
 nav:
-  - Главная:
-    - Добро пожаловать!: index.md
+  - Главная: index.md
+    #- Добро пожаловать!: index.md
+  - Домашняя: index2.md
   - ЭЦП:
     - Выпуск сертификата: ecp/releaseecp/release.md
     - Обновление сертификата: ecp/updateecp/update.md
@@ -92,7 +93,7 @@ nav:
   - Статьи:
     - Статья1: articles/1/articles1.md
     - Статья2: articles/2/articles2.md
-
+#
 
 
 

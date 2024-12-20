@@ -1,27 +1,17 @@
 {#-
-    This file was automatically generated - do not edit
-  -#}
-  {% extends "base.html" %}
-  {% block extrahead %}
-    <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.7c86dd97.min.css' | url }}">
-  {% endblock %}
-  {% block announce %}
-    Служба поддержки <strong>@squidfunk</strong> on
-    <a rel="me" href="https://fosstodon.org/@squidfunk">
-      <span class="twemoji mastodon">
-        {% include ".icons/fontawesome/brands/mastodon.svg" %}
-      </span>
-      <strong>Fosstodon</strong>
-    </a>
-    and
-    <a href="https://x.com/squidfunk">
-      <span class="twemoji twitter">
-        {% include ".icons/fontawesome/brands/twitter.svg" %}
-      </span>
-      <strong>Twitter</strong>
-    </a>
-  {% endblock %}
-  {% block scripts %}
-    {{ super() }}
-    <script src="{{ 'assets/javascripts/custom.4e50d00f.min.js' | url }}"></script>
-  {% endblock %}
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.7c86dd97.min.css' | url }}">
+{% endblock %}
+{% block announce %}
+  Служба поддержки Тел:
+  <a href="tel:+7(499)705-50-50">+7 (499) 705-50-50 доб(1970)</a>
+  Почта:
+  <a href="mailto:help@helicon.ru">help@helicon.ru</a>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/javascripts/custom.4e50d00f.min.js' | url }}"></script>
+{% endblock %}
