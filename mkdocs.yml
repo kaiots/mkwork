@@ -1,6 +1,6 @@
-site_name: Инструкция
+site_name: База знаний
 site_author: (C) 2023-2024, Helicon.ru
-site_description: Инструкции
+site_description: Инс
 site_url: https://inst.kaiot.ru
 watch:
   - includes
@@ -13,9 +13,10 @@ theme:
   features:
     - navigation.tabs #Вкладки навигации верхний уровень
     - search.highlight 
-    - toc.integrate
+    - toc.integrate #оглавление часть левой стороны
     - navigation.top #Кнопка "Вернуться наверх"
     - content.tooltips
+    - toc.follow
 
   plugins:
     - search:
@@ -29,13 +30,13 @@ theme:
       accent: indigo
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: Переключитесь в темный режим
     - scheme: slate
       primary: black
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode 
+        name: Переключитесь в светлый режим
   font:
     text: Roboto
     code: Roboto Mono  
@@ -75,10 +76,8 @@ markdown_extensions:
 
 
 nav:
-  - Начало:
+  - Главная:
     - Добро пожаловать!: index.md
-    - Все о ЭЦП: index1.md
-    - Тест: index2.md
   - ЭЦП:
     - Выпуск сертификата: ecp/vipuck/index.md
     - Обновление сертификата: ecp/obnovlenie/index.md
@@ -86,8 +85,12 @@ nav:
     - Диадок: m4d/diadoc.md
     - Центральный банк: m4d/cb.md
   - Инструкции:
-    - Очистка Кэша браузера: instructions/index.md
-    - Смена пароля Рутокен: instructions/index1.md
+    - Очистка Кэша браузера: instructions/cache/cache.md
+    - Смена пароля Рутокен: instructions/pincode/index1.md
+    - Экспорт открытого ключа: instructions/openkey/openkey.md
+  - Статьи:
+    - Статья1: articles/1/index.md
+    - Статья2: articles/2/index.md
 
 
 
