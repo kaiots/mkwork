@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: База знаний
 social:
   cards_layout_options:
-    title: Documentation that simply works
+    title: Документация, которая просто работает
 ---
 
-Welcome to Material for MkDocs.
+Добро пожаловать в Базу знаний!!

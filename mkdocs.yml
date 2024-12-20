@@ -79,7 +79,7 @@ markdown_extensions:
 nav:
   - Главная: index.md
     #- Добро пожаловать!: index.md
-  - Домашняя: index2.md
+  - Приступаем к работе: index2.md
   - ЭЦП:
     - Выпуск сертификата: ecp/releaseecp/release.md
     - Обновление сертификата: ecp/updateecp/update.md
@@ -93,7 +93,7 @@ nav:
   - Статьи:
     - Статья1: articles/1/articles1.md
     - Статья2: articles/2/articles2.md
-#
+
 
 
 
