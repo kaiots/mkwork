@@ -1,0 +1,112 @@
+site_name: База знаний
+site_author: (C) 2023-2024, Helicon.ru
+site_description: Инс
+site_url: https://inst.kaiot.ru
+watch:
+  - includes
+
+theme:
+  name: material
+  custom_dir: material/overrides
+  language: ru
+  logo: assets/1.jpg
+  favicon: assets/1.jpg
+  features:
+    - navigation.tabs #Вкладки навигации верхний уровень
+    - search.highlight 
+    - toc.integrate #оглавление часть левой стороны
+    - navigation.top #Кнопка "Вернуться наверх"
+    - content.tooltips
+    - toc.follow
+
+  plugins:
+    - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+    - minify:
+        minify_html: true
+    - optimize
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Переключитесь в темный режим
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Переключитесь в светлый режим
+  font:
+    text: Roboto
+    code: Roboto Mono  
+    
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+
+
+nav:
+  - Главная:
+    - Добро пожаловать!: index.md
+  - ЭЦП:
+    - Выпуск сертификата: ecp/releaseecp/release.md
+    - Обновление сертификата: ecp/updateecp/update.md
+  - Класификатор полномочий МЧД:
+    - Диадок: m4d/diadoc.md
+    - Центральный банк: m4d/cb.md
+  - Инструкции:
+    - Очистка Кэша браузера: instructions/cache/cache.md
+    - Смена пароля Рутокен: instructions/pincode/pincode.md
+    - Экспорт открытого ключа: instructions/openkey/openkey.md
+  - Статьи:
+    - Статья1: articles/1/articles1.md
+    - Статья2: articles/2/articles2.md
+
+
+
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/angellist
+      name: Help
+      link: https://portal.helicon.ru/company/personal/user/15/
+  consent:
+    title: Cookie consent
+    description: >- 
+      Мы используем файлы cookie для распознавания ваших повторных посещений и предпочтений, а
+      также для оценки эффективности нашей документации и
+      того, находят ли пользователи то, что ищут. Своим согласием вы помогаете нам
+      улучшить нашу документацию.
