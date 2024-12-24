@@ -4,6 +4,16 @@ hide:
   - toc
 ---
 
+
+
+
+
+![](./assets/images/zelda-light-world.png#only-light)
+![](./assets/images/zelda-dark-world.png#only-dark)
+
+
+
+
 <p style="font-size:2.0em;text-align: center">
 Добро пожаловать!
 </p>
