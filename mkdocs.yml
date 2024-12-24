@@ -87,7 +87,6 @@ nav:
     - Выпуск сертификата: ecp/releaseecp/release.md
     - Обновление сертификата: ecp/updateecp/update.md
   - Класификатор полномочий МЧД:
-    - m4d/index.md
     - Диадок: m4d/diadoc.md
     - Центральный банк: m4d/cb.md
     - Росалкогольрегулирование: m4d/alco.md
