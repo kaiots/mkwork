@@ -1,7 +1,14 @@
+---
+subtitle: Nullam urna elit, malesuada eget finibus ut, ac tortor
+---
+
+# Page title
 
 <p style="font-size:2.0em;text-align: center">
-Диадок
+
+ Диадок
 </p>
+
 
 
 !!! warning ""
